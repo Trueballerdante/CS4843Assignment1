@@ -1,2 +1,2 @@
 # CS4843Assignment1
-THe first assignment for my cloud computing class.
+The first assignment for my cloud computing class.
