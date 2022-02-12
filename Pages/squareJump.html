@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Square Jump</title> 
+        <link rel="stylesheet" href="CSS/pageStyle.css">
+    </head>
+
+    <body style="background-color: lightgray;">
+        <header><u>Square Jump</u></header>
+        
+        <section> 
+            <nav>
+                <div style="font-size: 30px; text-align: center;"> 
+                    <span>
+                        <a href="welcomePage.html">Welcome Page</a>
+                        <a href="imagesPage.html">Images</a>
+                        <a href="videoPage.html">Video</a>
+                        <a href="linksPage.html">Links</a>
+                    </span>
+                </div>
+            </nav>
+            
+            <article>
+                <div style="text-align: center; padding-top: 30px;">
+                    <canvas id="gameScreen" width="600" height="400" style="border:1px solid #000000;"></canvas>
+                    <p style="font-size: 20px;">Score points every time the red square reaches either the left or right side 
+                        <br> of the screen. The game ends when you collide with the red square.
+                        <br> Controls: 
+                        <br>left arrow key: move left
+                        <br>right arrow key: move right
+                        <br>up arrow key: jump
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <script src="JavaScript/squareJump.js"></script>
+
+    </body>
+</html>
