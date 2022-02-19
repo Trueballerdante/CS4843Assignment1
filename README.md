@@ -15,19 +15,19 @@ S3 Configuration:
 - Bucket Policy:
 <br>
 `{
-    "Version": "2008-10-17",<br>
-    "Id": "PolicyForCloudFrontPrivateContent",<br>
-    "Statement": [<br>
-        {<br>
-            "Sid": "1",<br>
-            "Effect": "Allow",<br>
-            "Principal": {<br>
-                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E36RGCVVKDMIVJ"<br>
-            },<br>
-            "Action": "s3:GetObject",<br>
-            "Resource": "arn:aws:s3:::qgo452cs4843assign1/*"<br>
-        }<br>
-    ]<br>
+    "Version": "2008-10-17",
+    "Id": "PolicyForCloudFrontPrivateContent",
+    "Statement": [
+        {
+            "Sid": "1",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E36RGCVVKDMIVJ"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::qgo452cs4843assign1/*"
+        }
+    ]
 }`
 This policy allows the users to access the website.
 
