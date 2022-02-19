@@ -13,7 +13,7 @@ S3 Configuration:
 - Static website hosting is enabled.
 - All public access is blocked.
 - Bucket Policy:
-<br>
+
 `{
     "Version": "2008-10-17",
     "Id": "PolicyForCloudFrontPrivateContent",
