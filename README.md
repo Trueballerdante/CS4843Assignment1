@@ -29,6 +29,7 @@ S3 Configuration:
         }
     ]
 }`
+
 This policy allows the users to access the website.
 
 Cloud front was also used to deploy the S3 bucket through a world wide network of data centers.
