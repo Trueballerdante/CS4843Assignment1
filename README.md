@@ -15,7 +15,7 @@ S3 Configuration:
 - Bucket Policy:
 <br>
 `{
-    "Version": "2008-10-17",
+    "Version": "2008-10-17",<br>
     "Id": "PolicyForCloudFrontPrivateContent",
     "Statement": [
         {
