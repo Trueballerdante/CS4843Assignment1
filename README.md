@@ -14,7 +14,8 @@ S3 Configuration:
 - All public access is blocked.
 - Bucket Policy:
 
-`{
+```
+{
     "Version": "2008-10-17",
     "Id": "PolicyForCloudFrontPrivateContent",
     "Statement": [
@@ -28,7 +29,8 @@ S3 Configuration:
             "Resource": "arn:aws:s3:::qgo452cs4843assign1/*"
         }
     ]
-}`
+}
+```
 
 This policy allows the users to access the website.
 
