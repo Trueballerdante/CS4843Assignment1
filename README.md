@@ -5,6 +5,7 @@ This is a website that displays information about me, images, a video, links, an
 - HTML: Used to display the text, images, videos, links, and game canvas on the website.
 - CSS: Used to customize the header, navigation bar, links, and images.
 - JavaScript: Used to create a 2d game.
+- AWS's S3 and Cloudfront
 
 ### Infrastructure:
 AWS's S3 was utilized to host my website files.
