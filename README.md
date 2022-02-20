@@ -12,27 +12,8 @@ S3 Configuration:
 - AWS Region: US East (Ohio) us-east-2
 - Static website hosting is enabled.
 - All public access is blocked.
-- Bucket Policy:
+- The bucket policy allows the website to be accessible through Cloudfront.
 
-```
-{
-    "Version": "2008-10-17",
-    "Id": "PolicyForCloudFrontPrivateContent",
-    "Statement": [
-        {
-            "Sid": "1",
-            "Effect": "Allow",
-            "Principal": {
-                "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E36RGCVVKDMIVJ"
-            },
-            "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::qgo452cs4843assign1/*"
-        }
-    ]
-}
-```
-
-This policy allows the users to access the website.
 
 Cloud front was also used to deploy the S3 bucket through a world wide network of data centers.
 - All edge locations are used.
